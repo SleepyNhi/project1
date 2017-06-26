@@ -5,13 +5,14 @@ html, body {
 }
 
 .content {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     background-color: #F5A9BC;
-    margin-left: 100px;
-    margin-top: 400px;
+    margin-left: 150px;
+    margin-top: 200px;
     margin-bottom: 400px;
    text-align: center;
+   border:1px solid black;
 
 }
 
@@ -36,8 +37,11 @@ html, body {
 #centerid {
     display: inline-flex;
     flex-wrap: wrap;
-    margin-left: 80px;
-  
+    width: 100%;
+    border:1px solid black;
+    align-content: center;
+
+
 }
 
 #heading h1{
@@ -47,10 +51,10 @@ html, body {
 
 #left {
     
-    width: 25%;
+    width: 5%;
     height: 100%;
     position: fixed;
-    background: #F5A9BC;
+    background: #000;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -105,7 +109,7 @@ html, body {
 
 #right {
 
-    width: 75%;
+    width: 85%;
     height: auto;
     position: absolute;
     right: 0;
@@ -114,7 +118,9 @@ html, body {
 }
 
 #right h1{
-    color:#81F7D8;
+    color:#9A2EFE;
+    margin-top: 40px;
+    margin-bottom: 40px;
     letter-spacing: 5px;
     word-spacing: 15px;
 }
@@ -163,6 +169,7 @@ font-size:40px;
 .flex-wrapper {
   display: flex;
   height: 80vh;
+
 }
 
 .flex-wrapper a {
@@ -178,33 +185,42 @@ font-size:40px;
 }
 
 .flex-wrapper .one {
-  background-image: url(http://cdn.wonderfulengineering.com/wp-content/uploads/2014/06/galaxy-wallpapers-10.jpg);
+  background-image: url(float1.jpg);
 
-}
+}   
 
 .flex-wrapper .two {
-  background-image: url(http://4hdwallpapers.com/wp-content/uploads/2013/04/Pink-Flower-Wallpaper.jpg);
+  background-image: url(chess2.jpg);
 
 }
 
 .flex-wrapper .three {
-  background-image: url(http://www.coolwallpapers.org/photo/54401/leopard-wild-cat-a-dark-background-animal-1080x1920.jpg);
+  background-image: url(float3.jpg);
 
 }
 
 .flex-wrapper .four {
-  background-image: url(http://1.bp.blogspot.com/-JDyNMKZlSJ0/UJPMu9df5JI/AAAAAAAANGk/upRNweuOtrI/s1600/Winter+Desktop+Wallpapers+and+Backgrounds+2.jpg);
+  background-image: url(chess3.jpg);
 
 }
 
 .flex-wrapper .five {
-  background-image: url(http://wallpapercave.com/wp/3bRltp6.jpg);
+  background-image: url(float5.jpg);
 
 }
 
 .flex-wrapper a:hover {
   flex: 3;
 }
-
+#nhi {
+    background: url("nhiprofile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#rasha {
+    background: url("rashapro.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 
